@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap');
+/* Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* 2p */
+
+body {
+    background-color: #3A4042;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    color: #f25a70;
+    text-shadow: 4px 4px 0px #000;
+}
+
+h1,
+label {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* #send {
+    display: block;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 0px;
+    background-color: aliceblue;
+    font-size: 12pt;
+    width: 320;
+    height: 20;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: oblique;
+    box-shadow: 4px 4px 0px #000;
+    background-color: #7c5099;
+    transition: transform 200ms ease-in-out;
+} */
+
+
+#ans {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 320px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 0px #000;
+    font-size: x-small;
+}
+
+#send {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 15px;
+    font-size: 12pt;
+    width: 150px;
+    height: 30px;
+
+    box-shadow: 4px 4px 0px #000;
+    background-color: #7c5099;
+    transition: transform 200ms ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+}
+
+#send:hover {
+    transform: scale(1.2);
+}
+
+
+img {
+    max-width: 400px;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+
+}
+
+#acertos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    margin-top: 35px;
+    background-color: #f53955;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px #000;
+    height: 115px;
+    width: 200px;
+
+
+}
+
+#contagem {
+    margin-bottom: 50px;
+
+    font-size: 20px;
+    color: black;
+
+
+    font-family: 'Press Start 2P', cursive;
+}
+
+#titleAcertos {
+    font-size: 15px;
+    color: black;
+    padding-top: 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#final {
+    font-family: 'Press Start 2P', cursive;
+    color: #f53955;
+    font-size: 25px;
+}
+
+#dica {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 15px;
+    font-size: 12pt;
+    width: 80px;
+    height: 30px;
+
+    box-shadow: 4px 4px 5px #000;
+    background-color: #F7B801;
+    transition: transform 200ms ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+#dica:hover {
+    transform: scale(1.2);
+    box-shadow: 4px 4px 10px #000;
+    cursor: pointer;
+}
